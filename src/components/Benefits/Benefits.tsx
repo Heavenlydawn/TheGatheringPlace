@@ -14,7 +14,7 @@ const Benefits = () => {
       <div className="flex items-center justify-around">
         <div className="flex items-center justify-around">
           <div className="relative group">
-            <Image src={Institute} alt="Institute" width={302} height={384} />
+            <Image src={Institute} alt="Institute" />
             <div className=" flex items-start justify-center flex-col absolute top-0 h-0 left-0 bg-black opacity-0 group-hover:h-full group-hover:opacity-60 duration-500 transition ease-in-out text-white">
               <h3 className="gp-text-h3 font-sans text-start px-8">
                 INSTITUTE
@@ -29,12 +29,7 @@ const Benefits = () => {
         </div>
         <div className="flex items-center justify-around">
           <div className="relative group">
-            <Image
-              src={SkillAcquisition}
-              alt="SkillAcquisition"
-              width={302}
-              height={384}
-            />
+            <Image src={SkillAcquisition} alt="SkillAcquisition" />
             <div className=" flex items-start justify-center flex-col absolute top-0 h-0 left-0 bg-black opacity-0 group-hover:h-full group-hover:opacity-60 duration-500 transition ease-in-out text-white">
               <h3 className="gp-text-h3 font-sans text-start px-8">
                 SKILL ACQUISITION
@@ -49,7 +44,7 @@ const Benefits = () => {
         </div>
         <div className="flex items-center justify-around">
           <div className="relative group">
-            <Image src={BYUPathway} alt="BYUPathway" width={302} height={384} />
+            <Image src={BYUPathway} alt="BYUPathway" />
             <div className=" flex items-start justify-center flex-col absolute top-0 h-0 left-0 bg-black opacity-0 group-hover:h-full group-hover:opacity-60 duration-500 transition ease-in-out text-white">
               <h3 className="gp-text-h3 font-sans text-start px-8">
                 BYU PATHWAY
@@ -64,12 +59,7 @@ const Benefits = () => {
         </div>
         <div className="flex items-center justify-around">
           <div className="relative group">
-            <Image
-              src={EternalMarriage}
-              alt="EternalMarriage"
-              width={302}
-              height={384}
-            />
+            <Image src={EternalMarriage} alt="EternalMarriage" />
             <div className=" flex items-start justify-center flex-col absolute top-0 h-0 left-0 bg-black opacity-0 group-hover:h-full group-hover:opacity-60 duration-500 transition ease-in-out text-white">
               <h3 className="gp-text-h3 font-sans text-start px-8">
                 ETERNAL MARRIAGE
