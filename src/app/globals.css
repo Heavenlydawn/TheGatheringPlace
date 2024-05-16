@@ -53,7 +53,10 @@ Text Sizing
 End of Text Sizing 
 ===============
 */
-
+#home{
+  width: calc(100vw - 20px);
+  margin: 0 auto;
+}
 
 #hero{
   background: url(../../public/images/HeroImage.svg) no-repeat;
