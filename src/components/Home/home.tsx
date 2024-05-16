@@ -6,6 +6,7 @@ import AboutUsIcon from "../../../public/images/aboutUsIcon.svg";
 import GetSkillsIcon from "../../../public/images/getSkillsIcon.svg";
 import LearningIcon from "../../../public/images/learningIcon.svg";
 import LoveCrumbs from "../LoveCrumbs/LoveCrumbs";
+import Benefits from "../Benefits/Benefits";
 const Home = () => {
   return (
     <div id="home">
@@ -36,6 +37,7 @@ const Home = () => {
         />
       </div>
       <LoveCrumbs />
+      <Benefits />
     </div>
   );
 };
