@@ -53,3 +53,9 @@ Text Sizing
 End of Text Sizing 
 ===============
 */
+
+
+#hero{
+  background: url(../../public/images/HeroImage.svg) no-repeat;
+  background-size: cover;
+}
