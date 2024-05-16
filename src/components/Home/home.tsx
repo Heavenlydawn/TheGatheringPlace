@@ -5,6 +5,7 @@ import HeroCrumb from "../HeroCrumb/HeroCrumb";
 import AboutUsIcon from "../../../public/images/aboutUsIcon.svg";
 import GetSkillsIcon from "../../../public/images/getSkillsIcon.svg";
 import LearningIcon from "../../../public/images/learningIcon.svg";
+import LoveCrumbs from "../LoveCrumbs/LoveCrumbs";
 const Home = () => {
   return (
     <div id="home">
@@ -34,6 +35,7 @@ const Home = () => {
           text="Embark on a journey of spiritual exploration, guiding you to deepen your understanding, and cultivate a meaningful connection to your faith."
         />
       </div>
+      <LoveCrumbs />
     </div>
   );
 };
