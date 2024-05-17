@@ -15,7 +15,7 @@ const Hero = () => {
         OUR COMMUNITY
       </h1>
       <Link href="/mormon">
-        <Button text="Learn More" />
+        <Button text="Learn More" color="primary" />
       </Link>
 
       <div className="flex my-12 items-center gap-4">

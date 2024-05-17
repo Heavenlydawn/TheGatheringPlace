@@ -7,6 +7,7 @@ import GetSkillsIcon from "../../../public/images/getSkillsIcon.svg";
 import LearningIcon from "../../../public/images/learningIcon.svg";
 import LoveCrumbs from "../LoveCrumbs/LoveCrumbs";
 import Benefits from "../Benefits/Benefits";
+import Join from "../Join/Join"
 const Home = () => {
   return (
     <div id="home">
@@ -38,6 +39,7 @@ const Home = () => {
       </div>
       <LoveCrumbs />
       <Benefits />
+      <Join />
     </div>
   );
 };

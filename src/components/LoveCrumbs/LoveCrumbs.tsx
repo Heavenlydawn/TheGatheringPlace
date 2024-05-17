@@ -26,7 +26,7 @@ const LoveCrumbs = () => {
         <Image src={LCImage1} alt="Love share and invite image" />
         <div className="mt-44 text-center">
           <Link href="https://newsroom.churchofjesuschrist.org/article/latter-day-saints-encouraged-love-share-invite">
-            <Button text="READ MORE" />
+            <Button text="READ MORE" color="primary"/>
           </Link>
           <Image
             src={LCImage2}

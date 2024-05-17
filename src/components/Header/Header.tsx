@@ -12,7 +12,7 @@ const Header = () => {
         <Link href="/article">Articles</Link>
       </div>
       <Link href="/contact">
-        <Button text="Contact Us" />
+        <Button text="Contact Us" color="primary" />
       </Link>
     </header>
   );
