@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  width: calc(100vw - 20px);
+  max-width: 1440px;
+  margin: 0 auto;
+}
 /* 
 ==============
 Color Palette BG
@@ -53,12 +58,11 @@ Text Sizing
 End of Text Sizing 
 ===============
 */
-#home{
-  width: calc(100vw - 20px);
-  margin: 0 auto;
-}
-
 #hero{
   background: url(../../public/images/HeroImage.svg) no-repeat;
+  background-size: cover;
+}
+#serve{
+  background: url(../../public/images/serveImage.svg) no-repeat;
   background-size: cover;
 }

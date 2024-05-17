@@ -8,6 +8,7 @@ import LearningIcon from "../../../public/images/learningIcon.svg";
 import LoveCrumbs from "../LoveCrumbs/LoveCrumbs";
 import Benefits from "../Benefits/Benefits";
 import Join from "../Join/Join"
+import Serve from "../Serve/Serve";
 const Home = () => {
   return (
     <div id="home">
@@ -40,6 +41,7 @@ const Home = () => {
       <LoveCrumbs />
       <Benefits />
       <Join />
+      <Serve />
     </div>
   );
 };
