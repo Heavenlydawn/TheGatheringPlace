@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+/* body{
   width: calc(100vw - 20px);
   max-width: 1440px;
   margin: 0 auto;
-}
+} */
 /* 
 ==============
 Color Palette BG
