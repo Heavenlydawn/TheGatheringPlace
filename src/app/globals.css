@@ -66,3 +66,11 @@ End of Text Sizing
   background: url(../../public/images/serveImage.svg) no-repeat;
   background-size: cover;
 }
+#aboutUs{
+  background: url(../../public/images/AbaNigeria.webp) no-repeat;
+  background-size:cover ;
+  background-position: center;
+  width:99vw;
+  height:90vh;
+  margin: 0 auto;
+}
