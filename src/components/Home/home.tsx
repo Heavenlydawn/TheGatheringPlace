@@ -7,6 +7,8 @@ import Benefits from "../Benefits/Benefits";
 import Join from "../Join/Join";
 import Serve from "../Serve/Serve";
 import LearnHero from "../Learn/LearnHero";
+import Footer from "../Footer/Footer";
+
 const Home = () => {
   return (
     <div id="home">
@@ -24,6 +26,7 @@ const Home = () => {
         <Serve />
         <LearnHero />
       </div>
+        <Footer />
     </div>
   );
 };
