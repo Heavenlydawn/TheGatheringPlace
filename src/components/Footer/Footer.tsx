@@ -104,6 +104,7 @@ const Footer: React.FC = () => {
             />
           </button>
         </form>
+        <p>{message}</p>
       </div>
     </div>
   );
