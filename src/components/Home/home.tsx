@@ -9,6 +9,7 @@ import LoveCrumbs from "../LoveCrumbs/LoveCrumbs";
 import Benefits from "../Benefits/Benefits";
 import Join from "../Join/Join";
 import Serve from "../Serve/Serve";
+import LearnHero from "../Learn/LearnHero";
 const Home = () => {
   return (
     <div id="home">
@@ -42,6 +43,7 @@ const Home = () => {
         <Benefits />
         <Join />
         <Serve />
+       <LearnHero />
       </div>
     </div>
   );
