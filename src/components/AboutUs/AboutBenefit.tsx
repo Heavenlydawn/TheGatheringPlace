@@ -26,8 +26,8 @@ const AboutBenefit = () => {
     },
     {
       index: 4,
-      title: "PURPOSE AND DIRECTION IN  LIFE",
-      text: "When you choose to follow Christ, you choose to be changed. Elaine S. Dalton",
+      title: "PEACE AND COMFORT THROUGH THE ATONEMENT",
+      text: "We can access the grace of the Atonement of Jesus Christ to find peace and healing. Jeffrey R. Holland",
       image: Benefit4,
     },
   ];
