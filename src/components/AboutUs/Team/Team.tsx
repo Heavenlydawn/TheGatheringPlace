@@ -18,7 +18,7 @@ const Team = () => {
     {
       index: 2,
       name: "Bro. Michael I. Oknokwo",
-      role: "S & I Coordinator",
+      role: "Seminary Coordinator",
       image: Ada,
       socialIcon1: Facebook,
       socialIcon2: Twitter,
@@ -35,7 +35,7 @@ const Team = () => {
     },
     {
       index: 4,
-      name: `Sis Halima aPKane`,
+      name: `Sis Halima Priscilla Kane`,
       role: "Admin Assistant",
       image: Ada,
       socialIcon1: Facebook,
