@@ -6,6 +6,7 @@ import Time from "../../../public/images/time.svg";
 import Location from "../../../public/images/location.svg";
 import Button from "../Button/Button";
 const Join = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <div>
       <h1 className="gp-text-h1 font-sans py-12 text-center">
@@ -16,7 +17,7 @@ const Join = () => {
         <div className="gp-cream w-[440px] py-16 px-24 relative">
           <div className="flex justify-between items-center">
             <h4 className="gp-text-h5 text-[#FFD2A4]">INSTITUTE CLASSES</h4>
-            <h3 className="gp-text-h3 font-sans">2024</h3>
+            <h3 className="gp-text-h3 font-sans">{currentYear}</h3>
           </div>
           <h3 className="gp-text-h3">ATTEND OUR CLASSES</h3>
           <p className="font-bold text-base">
