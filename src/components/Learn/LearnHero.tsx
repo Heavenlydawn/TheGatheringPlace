@@ -1,5 +1,7 @@
 import React from "react";
 import Learn from "./Learn";
+import Image from "next/image";
+import GPImage from "../../../public/images/gp.png"
 const LearnHero = () => {
   return (
     <>
@@ -47,6 +49,10 @@ const LearnHero = () => {
           />
           <hr className="bg-[#FFD0A0] h-4 w-[300px]" />
         </div>
+      </div>
+
+      <div className="my-8">
+        <Image src={GPImage} alt="The Gathering Place" />
       </div>
     </>
   );
