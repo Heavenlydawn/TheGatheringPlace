@@ -36,6 +36,7 @@ const ContactForm = () => {
         </label>
       </form>
         <Button text="SEND MESSAGE" color="primary" />
+ 
     </div>
   );
 };
