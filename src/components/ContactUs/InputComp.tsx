@@ -7,7 +7,11 @@ const InputComp: React.FC<InputProps> = ({ placeholder }) => {
   return (
     <div>
       <label htmlFor={placeholder} className="">
-        <input type="text" placeholder={placeholder} className="w-[600px] outline-none border-none bg-gray-100 mb-6 px-4 py-8 rounded text-base" />
+        <input
+          type="text"
+          placeholder={placeholder}
+          className="w-[600px] outline-none border-none bg-gray-100 mb-6 px-4 py-8 rounded gp-text-h5"
+        />
       </label>
     </div>
   );

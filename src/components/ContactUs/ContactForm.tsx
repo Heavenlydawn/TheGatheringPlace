@@ -29,14 +29,13 @@ const ContactForm = () => {
             id="message"
             cols={30}
             rows={10}
-            className="w-[600px] outline-none border-none bg-gray-100 mb-6 px-4 py-8 rounded"
+            className="w-[600px] outline-none border-none bg-gray-100 mb-6 px-4 py-8 rounded gp-text-h5"
           >
             Message
           </textarea>
         </label>
       </form>
-        <Button text="SEND MESSAGE" color="primary" />
- 
+      <Button text="SEND MESSAGE" color="primary" />
     </div>
   );
 };
