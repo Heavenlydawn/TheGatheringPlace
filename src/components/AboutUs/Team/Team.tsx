@@ -17,7 +17,7 @@ const Team = () => {
     },
     {
       index: 2,
-      name: "Bro. Michael I. Oknokwo",
+      name: "Bro. Michael I. Okonkwo",
       role: "Seminary Coordinator",
       image: Ada,
       socialIcon1: Facebook,
@@ -26,8 +26,8 @@ const Team = () => {
     },
     {
       index: 3,
-      name: "Sis Ezinne Hannah. Adu",
-      role: "Institute Director",
+      name: "Sis Ezinne Hannah Adu",
+      role: "Institute Coordinator",
       image: Ada,
       socialIcon1: Facebook,
       socialIcon2: Twitter,

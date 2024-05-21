@@ -83,7 +83,7 @@ const Footer: React.FC = () => {
         <p>Phone Number: +234 7088808842 - Heaven</p>
         <p>Phone Number: +234 8114734312 - James</p>
         <p>
-          First Glass house Beside Disney Chicken, First Gate Dutse Alhaji,
+          First Glass House Beside Disney Chicken, First Gate Dutse Alhaji,
           Abuja, F.C.T
         </p>
       </div>

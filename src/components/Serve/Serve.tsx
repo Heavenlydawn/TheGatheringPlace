@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../Button/Button";
 import Image from "next/image";
+import Link from "next/link";
 import QuoteIcon from "../../../public/images/QuoteIcon.svg";
 const Serve = () => {
   return (
@@ -18,7 +19,10 @@ const Serve = () => {
           Lorem ipsum dolor sit, amet consectetur <br />adipisicing elit. Laudantium,
           atque.
         </p>
+        <Link href="churchofjesuschrist.org">
+
         <Button text="VISIT" color="primary" />
+        </Link>
       </div>
 
       <div>
