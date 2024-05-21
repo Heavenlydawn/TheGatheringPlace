@@ -9,9 +9,11 @@ const BOM = () => {
     <div>
       <Header />
       <BomHero />
-      <Join />
-      <div className="mt-44">
-      <Learn />
+      <div className="max-w-max m-auto">
+        <Join />
+        <div className="mt-44">
+          <Learn />
+        </div>
       </div>
       <Footer />
     </div>
