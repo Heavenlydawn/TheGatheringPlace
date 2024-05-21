@@ -8,7 +8,7 @@ const Header = () => {
       <div className="flex gap-8 gp-text-h6">
         <Link href="/">Home</Link>
         <Link href="/about">About Us</Link>
-        <Link href="/mormon">The Book Of Mormon</Link>
+        <Link href="/bom">The Book Of Mormon</Link>
         <Link href="/article">Articles</Link>
       </div>
       <Link href="/contact">
