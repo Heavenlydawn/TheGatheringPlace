@@ -74,3 +74,9 @@ End of Text Sizing
   height:90vh;
   margin: 0 auto;
 }
+#contact{
+  background: url(../../public/images/contactImage.svg) no-repeat;
+  background-size: cover;
+  width: 99vw;
+  height: 483px;
+}
