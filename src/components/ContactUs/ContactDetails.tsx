@@ -18,7 +18,10 @@ const ContactDetails = () => {
         <h6 className="gp-text-h6 mb-4">Contact Details</h6>
         <h5 className="gp-text-h6 leading-7">+234 7088808842 - Heaven</h5>
         <h5 className="gp-text-h6 leading-7">+234 8114734312 - James</h5>
-        <Link href="mailto:rielheavenly@gmail.com" className="gp-text-h6 leading-7">
+        <Link
+          href="mailto:rielheavenly@gmail.com"
+          className="gp-text-h6 leading-7"
+        >
           Heaven Gabriel@gamil.com
         </Link>
       </div>
@@ -26,9 +29,15 @@ const ContactDetails = () => {
       <div>
         <h6 className="gp-text-h6 mb-4 ">Find Us Here</h6>
         <div className="flex items-center gap-8">
-          <Image src={Facebook} alt="Facebook" width={40} height={40} />
-          <Image src={Twitter} alt="Twitter" width={40} height={40} />
-          <Image src={LinkedIn} alt="LinkedIn" width={40} height={40} />
+          <Link href="">
+            <Image src={Facebook} alt="Facebook" width={40} height={40} />
+          </Link>
+          <Link href="">
+            <Image src={Twitter} alt="Twitter" width={40} height={40} />
+          </Link>
+          <Link href="">
+            <Image src={LinkedIn} alt="LinkedIn" width={40} height={40} />
+          </Link>
         </div>
       </div>
     </section>
