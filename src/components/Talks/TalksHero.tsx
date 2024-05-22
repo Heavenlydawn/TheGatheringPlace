@@ -1,29 +1,5 @@
-// import React from "react";
-// import TalksComp from "./TalksComp";
-// import {talks} from "./TalksData";
-
-// const TalksHero = () => {
-//   return (
-//     <div className="my-12">
-//       <h1 className="gp-text-h1 text-center my-8">DEVOTIONALS</h1>
-//       {talks.map((talks, index) => (
-//         <TalksComp
-//           key={index}
-//           src={talks.src}
-//           date={talks.date}
-//           brethren={talks.brethren}
-//           title={talks.title}
-//           description={talks.description}
-//         />
-//       ))}
-//     </div>
-//   );
-// };
-
-// export default TalksHero;
-
 "use client";
-import React, { useState } from "react";
+import React, {useState } from "react";
 import TalksComp from "./TalksComp";
 import { talks } from "./TalksData";
 import Button from "../Button/Button";
@@ -33,6 +9,7 @@ const TalksHero = () => {
 
   const handleViewMore = () => {
     setShowAll(true);
+    console.log("View More button clicked");
   };
 
   return (

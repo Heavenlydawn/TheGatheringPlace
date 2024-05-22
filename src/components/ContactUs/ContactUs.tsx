@@ -8,7 +8,9 @@ const ContactUs = () => {
     <div>
       <Header />
       <ContactHero />
+      <div className="max-w-max m-auto">
       <ContactHeroForm />
+      </div>
       <Footer />
     </div>
   );
