@@ -9,7 +9,7 @@ const Header = () => {
         <Link href="/">Home</Link>
         <Link href="/about">About Us</Link>
         <Link href="/bom">The Book Of Mormon</Link>
-        <Link href="/article">Articles</Link>
+        <Link href="/talks">Teachings Of The Prophets</Link>
       </div>
       <Link href="/contact">
         <Button text="Contact Us" color="primary" />
