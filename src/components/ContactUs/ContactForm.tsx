@@ -18,7 +18,7 @@ const ContactForm = () => {
   ];
   return (
     <div>
-      <form action="">
+      <form action="/feedback/form" method="POST">
         <h2 className="gp-text-h4 mb-8">CONTACT FORM:</h2>
         {input.map((input, key) => (
           <InputComponent key={key} placeholder={input.placeholder} />

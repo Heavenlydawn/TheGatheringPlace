@@ -9,7 +9,9 @@ const AboutUs = () => {
   return (
     <div>
       <Header />
-      <div id="aboutUs"></div>
+      <div id="aboutUs" className="flex items-center justify-start h-screen">
+        <h1 className="gp-text-h1 pl-24 text-white">THE ABA NIGERIA<br /> TEMPLE</h1>
+      </div>
       <div className="max-w-max m-auto">
         <LoveCrumbs />
         <AboutBenefit />
