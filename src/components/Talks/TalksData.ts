@@ -24,7 +24,7 @@ export const talks = [
     brethren: "President and Sister Oaks ",
     description:
       " President and Sister Oaks counsel young adults on how to live the truths they know while also treating everyone with love.",
-    src: "//players.brightcove.net/1241706627001/default_default/index.html?videoId=6327991415112",
+    src: "https://players.brightcove.net/1241706627001/default_default/index.html?videoId=6327991415112",
   },
   {
     key: 4,
@@ -33,7 +33,7 @@ export const talks = [
     brethren: "Elder and Sister Holland ",
     description:
       " Elder and Sister Holland's talk for the January 2023 Worldwide Devotional for Young Adults.",
-    src: "//players.brightcove.net/1241706627001/default_default/index.html?videoId=6318388406112",
+    src: "https://players.brightcove.net/1241706627001/default_default/index.html?videoId=6318388406112",
   },
   {
     key: 5,
@@ -42,6 +42,6 @@ export const talks = [
     brethren: "Elder and Sister Holland ",
     description:
       " You are establishing priorities and patterns that will dramatically affect not just your mortal life, but also your eternal life.",
-    src: "//players.brightcove.net/1241706627001/default_default/index.html?videoId=6306220535112",
+    src: "https://players.brightcove.net/1241706627001/default_default/index.html?videoId=6306220535112",
   },
 ];
