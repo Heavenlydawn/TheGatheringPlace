@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Header/Header";
 import TalksHero from "./TalksHero";
+import LearnHero from "../Learn/LearnHero";
 import Footer from "../Footer/Footer";
 const Talks = () => {
   return (
@@ -8,6 +9,7 @@ const Talks = () => {
       <Header />
       <div className="max-w-max m-auto">
       <TalksHero />
+      <LearnHero />
       </div>
       <Footer />
     </div>

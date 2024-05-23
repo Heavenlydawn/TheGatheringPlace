@@ -52,5 +52,13 @@ export const talks = [
     description:
       " To every thing there is a season, and a time to every purpose under the heaven. This is your time; what will you do with it? Are you where you want to be with your life? If not, what are you going to do about it?",
     src: "https://players.brightcove.net/1241706627001/default_default/index.html?videoId=2434201894001",
+  },{
+    key: 7,
+    date: "JANUARY 2001",
+    title: "",
+    brethren: "",
+    description:
+      "",
+    src: "",
   },
 ];
