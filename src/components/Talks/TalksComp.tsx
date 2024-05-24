@@ -28,10 +28,10 @@ const TalksComp: React.FC<TalksProp> = ({
           allowFullScreen
         ></iframe>
       </div>
-      <div className="px-8 md:px-12">
+      <div className="px-0 md:px-12">
         <div className="flex justify-between items-center my-4">
-          <h5 className="gp-text-h5">{brethren}</h5>
-          <h5 className="gp-text-h5">{date}</h5>
+          <h5 className="gp-text-h6 md:gp-text-h5">{brethren}</h5>
+          <h5 className="gp-text-h6 md:gp-text-h5">{date}</h5>
         </div>
         <h1 className="gp-text-h1 leading-10">{title}</h1>
         <p className="font-bold leading-7">{description}</p>
