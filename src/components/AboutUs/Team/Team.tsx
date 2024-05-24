@@ -45,7 +45,7 @@ const Team = () => {
   ];
   return (
     <div>
-      <div className="text-center gp-text-h1 my-12">
+      <div className="text-center gp-text-h1 my-12 px-4 md:px-0">
         <h1>MEET OUR INSPIRATIONAL TEAM</h1>
       </div>
 

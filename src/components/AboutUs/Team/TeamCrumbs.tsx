@@ -20,7 +20,7 @@ const TeamCrumbs: React.FC<TeamCrumbs> = ({
 }) => {
   return (
     <div>
-      <div className="py-12 px-20 gp-light-grey  my-12">
+      <div className="py-12 px-20 gp-light-grey my-2 md:my-12">
         <div> 
           <Image
             src={image}

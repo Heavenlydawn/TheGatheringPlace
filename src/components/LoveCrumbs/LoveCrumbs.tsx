@@ -22,10 +22,10 @@ const LoveCrumbs = () => {
         </p>
       </div>
 
-      <div className="flex items-center justify-center gap-8">
+      <div className="flex items-center justify-center flex-col md:flex-row gap-8">
         <Image src={LCImage1} alt="Love share and invite image" />
-        <div className="mt-44 text-center">
-          <Link href="https://newsroom.churchofjesuschrist.org/article/latter-day-saints-encouraged-love-share-invite">
+        <div className="mt-2 md:mt-44 text-center">
+          <Link href="https://newsroom.churchofjesuschrist.org/article/latter-day-saints-encouraged-love-share-invite" className="hidden md:block">
             <Button text="READ MORE" color="primary"/>
           </Link>
           <Image
@@ -37,7 +37,7 @@ const LoveCrumbs = () => {
         <Image src={LCImage3} alt="Love share and invite image" />
       </div>
       <div className="text-center my-14">
-        <div className="flex items-center justify-center gap-8">
+        <div className="flex items-center justify-center flex-col md:flex-row gap-8">
           <div>
             <h3 className="gp-text-h3">OUR MISSION</h3>
             <p className="text-base font-bold">

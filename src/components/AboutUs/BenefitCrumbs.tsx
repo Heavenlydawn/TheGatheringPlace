@@ -18,7 +18,7 @@ const BenefitCrumbs: React.FC<BenefitProps> = ({
     <div
       className={`grid md:grid-cols-1 xl:grid-cols-2 md:flex items-center justify-center gap-12 md:gap-36 mb-8 ${flexDirection}`}
     >
-      <div className="w-[400px]">
+      <div className="p-4 md:w-[400px]">
         <h2 className="gp-text-h4 mb-8">{title}</h2>
         <p className="font-bold text-base leading-7">{text}</p>
       </div>
