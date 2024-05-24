@@ -6,7 +6,7 @@ import Button from "../Button/Button";
 const Hero = () => {
   return (
     <div id="hero" className="text-white px-8 py-12 md:px-40 md:py-80">
-      <h3 className="gp-text-h5">
+      <h3 className="gp-text-h5 mb-4">
         WELCOME TO THE <br />
         GATHERING PLACE
       </h3>
