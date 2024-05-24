@@ -30,7 +30,7 @@ const Serve = () => {
       </div>
      </div>
      </div>
-      <hr className="h-4 gp-brown" />
+      <hr className="h-4 gp-brown md:w-[766px] md:m-auto" />
     </section>
   );
 };
