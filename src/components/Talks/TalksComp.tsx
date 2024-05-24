@@ -16,8 +16,8 @@ const TalksComp: React.FC<TalksProp> = ({
   description,
 }) => {
   return (
-    <div className="flex items-center justify-center flex-col md:flex-row gap-24 bg-white mb-8 md:mb-12 p-4 xl:p-12 w-[300px] md:w-[700px] xl:w-[1280px]">
-      <div className="w-[300px] xl:h-[315px] md:w-[400px] xl:[5560px]">
+    <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-0 bg-white mb-8 md:mb-12 p-4 xl:p-12 w-[300px] md:w-[700px] xl:w-[1280px]">
+      <div className="h-[315px]">
         <iframe
           width="100%"
           height="100%"
