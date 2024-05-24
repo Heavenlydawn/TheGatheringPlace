@@ -7,7 +7,7 @@ import Facebook from "../../../../public/images/facebook.png";
 const Team = () => {
   const teams = [
     {
-      index: 1,
+      key: 1,
       name: "President Ifeanyi H. Agiriga",
       role: "Regional Director",
       image: Ada,
@@ -16,7 +16,7 @@ const Team = () => {
       socialIcon3: LinkedIn,
     },
     {
-      index: 2,
+      key: 2,
       name: "Bro. Michael I. Okonkwo",
       role: "Seminary Coordinator",
       image: Ada,
@@ -25,7 +25,7 @@ const Team = () => {
       socialIcon3: LinkedIn,
     },
     {
-      index: 3,
+      key: 3,
       name: "Sis Ezinne Hannah Adu",
       role: "Institute Coordinator",
       image: Ada,
@@ -34,7 +34,7 @@ const Team = () => {
       socialIcon3: LinkedIn,
     },
     {
-      index: 4,
+      key: 4,
       name: `Sis Halima Priscilla Kane`,
       role: "Admin Assistant",
       image: Ada,
@@ -50,9 +50,9 @@ const Team = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 items-center justify-center gap-10">
-        {teams.map((teams, index) => (
+        {teams.map((teams, key) => (
           <TeamCrumbs
-            index={index}
+            index={key}
             image={teams.image}
             name={teams.name}
             role={teams.role}
