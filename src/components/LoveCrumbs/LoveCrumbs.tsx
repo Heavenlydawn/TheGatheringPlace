@@ -16,7 +16,7 @@ const LoveCrumbs = () => {
           Love knows no clock, no end in sight. With hearts brimming, we share
           and
           <br />
-          invite, in patience, in trust, in the Lord's guiding light. Let's
+          invite, in patience, in trust, in the Lord&apos;s guiding light. Let&apos;s
           spread joy, include all in our good fight. No fear, no pressure, just
           love in flight!
         </p>

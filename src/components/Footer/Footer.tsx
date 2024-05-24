@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
         <h1 className="mb-4 gp-text-h3">Gathering Place.</h1>
         <p>
           We empower, encourage, fortify, uplift, and emancipate Young Single
-          Adults (YSA's) <br /> to enhance their readiness for the future across
+          Adults (YSA&apos;s) <br /> to enhance their readiness for the future across
           all facets of life.
         </p>
         <p>&copy; Stake YSA</p>

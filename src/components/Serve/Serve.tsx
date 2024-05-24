@@ -16,7 +16,7 @@ const Serve = () => {
           AROUND US
         </h2>
         <p className="font-bold my-6">
-        "As we lose ourselves in the service of others, we discover our own lives and our own happiness." <br />- Dieter F. Uchtdorf
+        &quot;As we lose ourselves in the service of others, we discover our own lives and our own happiness.&quot; <br />- Dieter F. Uchtdorf
         </p>
         <Link href="churchofjesuschrist.org">
 

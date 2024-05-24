@@ -22,7 +22,7 @@ const Join = () => {
           <h3 className="gp-text-h3 mb-8">ATTEND OUR CLASSES</h3>
           <p className="font-bold text-base leading-7">
             We are a group of young adults who are committed to applying Jesus
-            Christ's <br />teachings to get a deeper knowledge of the world in which
+            Christ &apos;s <br />teachings to get a deeper knowledge of the world in which
             we live.
           </p>
           <div className="font-bold flex flex-col gap-[23px] mt-8">
