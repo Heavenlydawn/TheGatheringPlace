@@ -4,7 +4,7 @@ import Link from "next/link";
 import Button from "../Button/Button";
 
 const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(true);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
     console.log("I was clicked");
