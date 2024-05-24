@@ -5,7 +5,7 @@ import Line from "../../../public/images/Line.png";
 import Button from "../Button/Button";
 const Hero = () => {
   return (
-    <div id="hero" className="text-white px-40 py-80">
+    <div id="hero" className="text-white px-8 py-12 md:px-40 md:py-80">
       <h3 className="gp-text-h5">
         WELCOME TO THE <br />
         GATHERING PLACE
