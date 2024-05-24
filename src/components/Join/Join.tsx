@@ -77,7 +77,7 @@ const Join = () => {
           <Image src={JoinImage} alt="Join Image"/>
         </div>
       </section>
-      <div className="my-12 absolute left-4 xl:left-[100px]">
+      <div className="my-12 absolute left-4 xl:left-[100px] 2xl:left-[300px]">
         <Link href="https://myinstitute.churchofjesuschrist.org/">
           <Button text="REGISTER" color="secondary" />
         </Link>
