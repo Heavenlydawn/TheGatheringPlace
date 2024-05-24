@@ -58,25 +58,128 @@ Text Sizing
 End of Text Sizing 
 ===============
 */
-#hero{
+/* #hero {
   background: url(../../public/images/HeroImage.svg) no-repeat;
   background-size: cover;
+} */
+#hero {
+  background: url('../../public/images/HeroImage.svg') no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
 }
-#serve{
+/*
+================
+Hero Media Query
+================
+*/
+
+@media (max-width: 1200px) {
+  #hero {
+    height: 90vh; 
+  }
+}
+
+@media (max-width: 992px) {
+  #hero {
+    height: 80vh;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero {
+    height: 70vh; 
+  }
+}
+
+@media (max-width: 576px) {
+  #hero {
+    height: 60vh;
+  }
+}
+/*
+================
+Serve
+================
+*/
+#serve {
   background: url(../../public/images/serveImage.svg) no-repeat;
   background-size: cover;
 }
-#aboutUs{
-  background: url(../../public/images/AbaNigeria.webp) no-repeat;
-  background-size:cover ;
-  background-position: center;
-  width:99vw;
-  height:90vh;
+
+
+#aboutUs {
+  background: url('../../public/images/AbaNigeria.webp') no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh; 
   margin: 0 auto;
 }
-#contact{
-  background: url(../../public/images/contactImage.svg) no-repeat;
+/*
+================
+About Media Query
+================
+*/
+
+@media (max-width: 1200px) {
+  #aboutUs {
+    height: 80vh; 
+  }
+}
+
+@media (max-width: 992px) {
+  #aboutUs {
+    height: 70vh; 
+  }
+}
+
+@media (max-width: 768px) {
+  #aboutUs {
+    height: 60vh; 
+  }
+}
+
+@media (max-width: 576px) {
+  #aboutUs {
+    height: 50vh; 
+  }
+}
+
+
+#contact {
+  background: url("../../public/images/contactImage.svg") no-repeat center
+    center;
   background-size: cover;
-  width: 99vw;
-  height: 483px;
+  width: 100%;
+  height: 100vh;
+}
+
+/*
+================
+Contact Media Query
+================
+*/
+
+@media (max-width: 1200px) {
+  #contact {
+    height: 70vh;
+  }
+}
+
+@media (max-width: 992px) {
+  #contact {
+    height: 60vh;
+  }
+}
+
+@media (max-width: 768px) {
+  #contact {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 576px) {
+  #contact {
+    height: 40vh;
+  }
 }

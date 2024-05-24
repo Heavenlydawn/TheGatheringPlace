@@ -16,8 +16,7 @@ const Serve = () => {
           AROUND US
         </h2>
         <p className="font-bold my-6">
-          Lorem ipsum dolor sit, amet consectetur <br />adipisicing elit. Laudantium,
-          atque.
+        "As we lose ourselves in the service of others, we discover our own lives and our own happiness." <br />- Dieter F. Uchtdorf
         </p>
         <Link href="churchofjesuschrist.org">
 
