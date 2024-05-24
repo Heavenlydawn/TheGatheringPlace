@@ -104,7 +104,7 @@ const Footer: React.FC = () => {
             <Image
               src={RightArrow}
               alt="RightArrow"
-              className="absolute right-1 top-3"
+              className="absolute right-1 top-3 md:right-28 lg:right-72 xl:right-0"
             />
           </button>
         </form>
