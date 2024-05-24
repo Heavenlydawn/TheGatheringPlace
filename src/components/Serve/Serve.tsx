@@ -5,10 +5,10 @@ import Link from "next/link";
 import QuoteIcon from "../../../public/images/QuoteIcon.svg";
 const Serve = () => {
   return (
-    <section id="serve" className="my-36 px-96 pt-24 pb-56">
+    <section id="serve" className="my-36 md:px-96 md:pt-24 md:pb-56">
      <div>
-     <div className="flex items-center justify-center">
-     <div className="w-[900px] py-12 gp-light-grey flex justify-center items-center gap-12">
+     <div className="flex items-center justify-center ">
+     <div className="py-12 gp-light-grey flex justify-center items-center gap-12 px-8">
       <div>
         <h2 className="gp-text-h3 font-sans">
           WE WANT TO <br />
@@ -29,8 +29,8 @@ const Serve = () => {
       </div>
       </div>
      </div>
-      <hr className="h-4 gp-brown w-full" />
      </div>
+      <hr className="h-4 gp-brown" />
     </section>
   );
 };

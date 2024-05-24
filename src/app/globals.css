@@ -99,9 +99,15 @@ Hero Media Query
 Serve
 ================
 */
+/* #serve {
+  background: url(../../public/images/serveImage.svg) no-repeat;
+  background-size: cover;
+} */
 #serve {
   background: url(../../public/images/serveImage.svg) no-repeat;
   background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 
 
