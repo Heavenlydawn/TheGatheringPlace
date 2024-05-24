@@ -6,7 +6,7 @@ import LearningIcon from "../../../public/images/learningIcon.svg";
 const HeroCrumbCompile = () => {
   return (
     <div>
-         <div className="flex items-center justify-around">
+         <div className="flex flex-col gap-12 md:gap-8 lg:gap-0 items-center justify-around md:flex-row">
           <HeroCrumb
             icon={AboutUsIcon}
             title="ABOUT US"

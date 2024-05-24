@@ -29,7 +29,7 @@ const ContactForm = () => {
             id="message"
             cols={30}
             rows={10}
-            className="w-[600px] outline-none border-none bg-gray-100 mb-6 px-4 py-8 rounded gp-text-h5"
+            className="w-[280px] md:w-[600px] outline-none border-none bg-gray-100 mb-6 px-4 py-8 rounded gp-text-h5"
           >
             Message
           </textarea>

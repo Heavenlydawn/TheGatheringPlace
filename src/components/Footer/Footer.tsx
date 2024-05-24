@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
   };
 
   return (
-    <div className="gp-dark text-white flex justify-between pt-8 pb-36 px-10 gap-8">
+    <div className="gp-dark text-white flex justify-between flex-col md:flex-row pt-8 pb-36 px-10 gap-8">
       <div>
         <h1 className="gp-text-h3 ">Gathering Place.</h1>
         <p>

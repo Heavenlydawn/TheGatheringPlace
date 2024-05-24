@@ -10,7 +10,7 @@ interface HeroCrumbProps {
 const HeroCrumb: React.FC<HeroCrumbProps> = ({ icon, title, text }) => {
   return (
     <>
-      <div className="bg-[#FFF5EB]  w-[411px]">
+      <div className="bg-[#FFF5EB]  w-[290px] md:w-[411px]">
         <div className="p-12">
         <Image src={icon} alt={title + " Icon"} />
         <h1 className="gp-text-h3 my-4">{title}</h1>

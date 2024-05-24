@@ -47,4 +47,4 @@ const TalksHero = () => {
   );
 };
 
-export default TalksHero; 
+export default TalksHero;
