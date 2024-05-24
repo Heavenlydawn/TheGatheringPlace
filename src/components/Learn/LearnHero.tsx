@@ -17,7 +17,7 @@ const LearnHero = () => {
             instructor="Sis Ejiro Agiriga"
             dayOfTheWeek="Fridays, 4pm"
           />
-          <hr className="bg-[#FFD0A0] h-4 w-[300px]" />
+          <hr className="bg-[#FFD0A0] h-4" />
         </div>
         <div>
           <Learn
@@ -27,7 +27,7 @@ const LearnHero = () => {
             instructor="Stake YSA"
             dayOfTheWeek="Monday - Saturday"
           />
-          <hr className="bg-[#FFD0A0] h-4 w-[300px]" />
+          <hr className="bg-[#FFD0A0] h-4 " />
         </div>
         <div>
           <Learn
@@ -37,7 +37,7 @@ const LearnHero = () => {
             instructor="President Ifeanyi H Agiriga"
             dayOfTheWeek="Wednesdays 4pm"
           />
-          <hr className="bg-[#FFD0A0] h-4 w-[300px]" />
+          <hr className="bg-[#FFD0A0] h-4" />
         </div>
         <div>
           <Learn
@@ -47,7 +47,7 @@ const LearnHero = () => {
             instructor="Sis Blessing Obilor"
             dayOfTheWeek="Wednesdays 6pm"
           />
-          <hr className="bg-[#FFD0A0] h-4 w-[300px]" />
+          <hr className="bg-[#FFD0A0] h-4" />
         </div>
       </div>
 

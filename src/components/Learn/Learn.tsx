@@ -17,7 +17,7 @@ const Learn: React.FC<LearnProps> = ({
   const currentYear = new Date().getFullYear();
   return (
     <>
-      <div className="gp-cream w-[300px] h-[367px] px-12 py-12 hover:opacity-100">
+      <div className="gp-cream h-[367px] px-12 py-12 hover:opacity-100">
         <div className="font-sans">
           <h2
             className="gp-text-h6 my-6 bg-clip-text text-transparent font-bold"
