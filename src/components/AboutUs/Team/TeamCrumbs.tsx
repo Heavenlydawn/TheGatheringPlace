@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 interface TeamCrumbs {
-  index: number;
+  key: number;
   name: string;
   role: string;
   image: any;

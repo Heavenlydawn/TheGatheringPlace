@@ -50,9 +50,9 @@ const Team = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 items-center justify-center gap-10">
-        {teams.map((teams, key) => (
+        {teams.map((teams) => (
           <TeamCrumbs
-            index={key}
+            key={teams.key}
             image={teams.image}
             name={teams.name}
             role={teams.role}
