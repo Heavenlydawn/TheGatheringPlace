@@ -11,7 +11,7 @@ const Benefits = () => {
       <h2 className="text-center font-sans gp-text-h1 py-12">
         BENEFITS OF BEING PART OF <br /> THE GATHERING PLACE
       </h2>
-      <div className="flex items-center justify-around">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 items-center justify-around">
         <div className="flex items-center justify-around">
           <div className="relative group">
             <Image src={Institute} alt="Institute" />
