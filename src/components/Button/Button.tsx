@@ -5,12 +5,12 @@ interface ButtonProps {
   onClick?:any;
 }
 const Button: React.FC<ButtonProps> = ({ text, color = 'primary', onClick }) => {
-  const baseClasses = "gp-text-h5 py-5 px-8 rounded-md";
+  const baseClasses = "gp-text-h5 py-2 md:py-5 px-4 md:px-8 rounded-md";
   const colorClasses = {
-    primary: "gp-text-h5 text-black gp-brown py-5 px-8 rounded-md",
-    secondary: "gp-text-h5 text-[#FFD2A4] gp-dark py-5 px-8 rounded-md",
-    danger: "text-white bg-red-500 gp-text-h5 py-5 px-8 rounded-md",
-    success: "text-white bg-green-500 gp-text-h5 px-8 rounded-md"
+    primary: "text-black gp-brown",
+    secondary: "text-[#FFD2A4] gp-dark",
+    danger: "text-white bg-red-500",
+    success: "text-white bg-green-500"
   };
   return (
     <button className={`${baseClasses} ${colorClasses[color]}`} onClick={onClick}>
