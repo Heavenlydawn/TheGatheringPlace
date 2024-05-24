@@ -12,9 +12,9 @@ const Join = () => {
       <h1 className="gp-text-h1 font-sans py-12 text-center">
         JOIN US AND BECOME A PART <br /> OF SOMETHING GREAT
       </h1>
-      <section className="flex justify-center items-center">
+      <section className="flex justify-center items-center flex-col xl:flex-row">
         {/* Detail Section */}
-        <div className="gp-cream w-[440px] py-16 px-24 relative">
+        <div className="gp-cream w-[313px] xl:w-[440px] py-16 px-4 md:px-12 xl:px-24 relative">
           <div className="flex justify-between items-center">
             <h4 className="gp-text-h5 text-[#FFD2A4]">INSTITUTE CLASSES</h4>
             <h3 className="gp-text-h3 font-sans">{currentYear}</h3>
@@ -76,7 +76,7 @@ const Join = () => {
           <Image src={JoinImage} alt="Join Image" />
         </div>
       </section>
-      <div className="my-12 absolute left-[400px]">
+      <div className="my-12 absolute left-4 xl:left-[400px]">
         <Link href="https://myinstitute.churchofjesuschrist.org/">
           <Button text="REGISTER" color="secondary" />
         </Link>
