@@ -9,7 +9,7 @@ import Link from "next/link";
 const LoveCrumbs = () => {
   return (
     <>
-      <div className="text-center mt-24">
+      <div className="text-left md:text-center mt-24 px-4">
         <h3 className="gp-text-h6 my-4">GATHERING PLACE</h3>
         <h1 className="gp-text-h2">LOVE SHARE AND INVITE</h1>
         <p className="font-bold mb-8">
@@ -36,7 +36,7 @@ const LoveCrumbs = () => {
         </div>
         <Image src={LCImage3} alt="Love share and invite image" />
       </div>
-      <div className="text-center my-14">
+      <div className="text-left md:text-center my-14 px-4">
         <div className="flex items-center justify-center flex-col md:flex-row gap-8">
           <div>
             <h3 className="gp-text-h3">OUR MISSION</h3>
