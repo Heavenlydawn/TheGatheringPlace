@@ -16,7 +16,7 @@ const BenefitCrumbs: React.FC<BenefitProps> = ({
   const flexDirection = index % 2 === 0 ? "flex-row" : "flex-row-reverse";
   return (
     <div
-      className={`flex items-center justify-center gap-36 mb-8 ${flexDirection}`}
+      className={`grid md:grid-cols-1 xl:grid-cols-2 md:flex items-center justify-center gap-12 md:gap-36 mb-8 ${flexDirection}`}
     >
       <div className="w-[400px]">
         <h2 className="gp-text-h4 mb-8">{title}</h2>

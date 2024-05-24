@@ -49,7 +49,7 @@ const Team = () => {
         <h1>MEET OUR INSPIRATIONAL TEAM</h1>
       </div>
 
-      <div className="flex items-center justify-center gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 items-center justify-center gap-10">
         {teams.map((teams, index) => (
           <TeamCrumbs
             index={index}
