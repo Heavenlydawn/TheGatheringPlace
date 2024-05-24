@@ -36,9 +36,9 @@ const Footer: React.FC = () => {
   };
 
   return (
-    <div className="gp-dark text-white flex justify-between flex-col md:flex-row pt-8 pb-36 px-10 gap-8">
+    <div className="gp-dark text-white grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 justify-between pt-8 pb-36 px-10 gap-8">
       <div>
-        <h1 className="gp-text-h3 ">Gathering Place.</h1>
+        <h1 className="mb-4 gp-text-h3">Gathering Place.</h1>
         <p>
           We empower, encourage, fortify, uplift, and emancipate Young Single
           Adults (YSA's) <br /> to enhance their readiness for the future across
@@ -48,7 +48,7 @@ const Footer: React.FC = () => {
       </div>
 
       <div>
-        <h1 className="gp-text-h3">Institute</h1>
+        <h1 className="mb-4 gp-text-h3">Institute</h1>
         <div className="leading-7">
           <p>Dating Courtship and Marriage</p>
           <p> The Book Of Mormon</p>
@@ -61,7 +61,7 @@ const Footer: React.FC = () => {
       </div>
 
       <div>
-        <h1 className="gp-text-h3">Skill Acquisition</h1>
+        <h1 className="mb-4 gp-text-h3">Skill Acquisition</h1>
         <div className="leading-7">
           <p>Computer Training</p>
           <p>Videography and Photography</p>
@@ -76,7 +76,7 @@ const Footer: React.FC = () => {
       </div>
 
       <div className="leading-7">
-        <h1 className="gp-text-h3">Contact Us</h1>
+        <h1 className="mb-4 gp-text-h3">Contact Us</h1>
         <Link href="mailto:gabrielheavenlydawn@gmail.com">
           GabrielHeavenlydawn
         </Link>
@@ -89,7 +89,7 @@ const Footer: React.FC = () => {
       </div>
 
       <div>
-        <h1 className="gp-text-h3">Stay Up To Date</h1>
+        <h1 className="mb-4 gp-text-h3">Stay Up To Date</h1>
         <p>Subscribe to our newsletter</p>
         <form onSubmit={handleSubmit} className="relative">
           <input
