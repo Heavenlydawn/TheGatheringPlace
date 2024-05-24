@@ -13,7 +13,7 @@ const TalksHero = () => {
   };
 
   return (
-    <div className="my-12">
+    <div className="my-4 md:my-12">
       <h1 className="gp-text-h1 text-center my-8">DEVOTIONALS</h1>
       {showAll
         ? talks.map((talk, index) => (

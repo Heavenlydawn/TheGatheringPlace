@@ -8,7 +8,7 @@ const LearnHero = () => {
       <div className="text-center gp-text-h1 font-sans mb-12">
         <h1>LEARN, INNOVATE, GROW!</h1>
       </div>
-      <div className="flex items-center justify-center gap-12">
+      <div className="flex items-center justify-center flex-col md:flex-row gap-12">
         <div>
           <Learn
             subTitle="RELATIONSHIP"
