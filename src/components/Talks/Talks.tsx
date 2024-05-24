@@ -8,8 +8,10 @@ const Talks = () => {
     <div className="gp-light-grey">
       <Header />
       <div className="max-w-max m-auto">
-      <TalksHero />
-      <LearnHero />
+        <div className="xl:max-w-7xl m-auto">
+          <TalksHero />
+        </div>
+        <LearnHero />
       </div>
       <Footer />
     </div>
