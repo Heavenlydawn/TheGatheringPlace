@@ -19,6 +19,7 @@ const Header = () => {
         <Link href="/about">About Us</Link>
         <Link href="/bom">The Book Of Mormon</Link>
         <Link href="/talks">Devotionals</Link>
+        <Link href="/skills">Skill Acquisition</Link>
       </div>
       <div className="hidden md:block">
         <Link href="/contact">
@@ -62,6 +63,7 @@ const Header = () => {
           <Link href="/about">About Us</Link>
           <Link href="/bom">The Book Of Mormon</Link>
           <Link href="/talks">Devotionals</Link>
+          <Link href="/skills">Skill Acquisition</Link>
           <Link href="/contact">
             <Button text="Contact Us" color="primary" />
           </Link>
