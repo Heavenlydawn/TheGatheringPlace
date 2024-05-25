@@ -1,7 +1,7 @@
 import React from "react";
 import Learn from "./Learn";
 import Image from "next/image";
-import GPImage from "../../../public/images/gp.png"
+import GPImage from "../../../public/images/gp.png";
 const LearnHero = () => {
   return (
     <>

@@ -5,7 +5,7 @@ interface ButtonProps {
   onClick?:any;
 }
 const Button: React.FC<ButtonProps> = ({ text, color = 'primary', onClick }) => {
-  const baseClasses = "gp-text-h5 py-2 md:py-5 px-4 md:px-8 rounded-md";
+  const baseClasses = "gp-text-h5 py-2 md:py-5 px-4 md:px-8 rounded-md outline-none border-none";
   const colorClasses = {
     primary: "text-black gp-brown",
     secondary: "text-[#FFD2A4] gp-dark",

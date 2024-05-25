@@ -48,7 +48,7 @@ const Header = () => {
       >
         <button className="absolute top-4 right-4" onClick={toggleMenu}>
           <svg
-            className="fill-current h-6 w-6"
+            className="fill-current h-4 w-4"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
