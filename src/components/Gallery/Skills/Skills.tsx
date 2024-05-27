@@ -6,9 +6,7 @@ const Skills = () => {
   return (
     <div>
       <Header />
-      {/* <div className="max-w-max m-auto"> */}
         <GalleryHero />
-      {/* </div> */}
       <Footer />
     </div>
   );
