@@ -32,7 +32,7 @@ const Header = () => {
         onClick={toggleMenu}
       >
         <svg
-          className="fill-current h-12 w-12"
+          className="fill-current h-8 w-8"
           viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg"
         >
