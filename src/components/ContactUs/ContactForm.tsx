@@ -75,7 +75,7 @@ const ContactForm = () => {
           type="submit"
         />
       </form>
-       {status && <p>{status}</p>}
+       {status && <p className="text-red">{status}</p>}
     </div>
   );
 };
