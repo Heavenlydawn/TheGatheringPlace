@@ -11,7 +11,7 @@ const ContactForm = () => {
         event.preventDefault();
         const form = event.currentTarget;
         const formData = new FormData(form);
-        const formId = process.env.NEXT_PUBLIC_FORMSPREE_FORM_ID;
+        const formId = process.env.NEXT_PUBLIC_THEGATHERINGPLACE;
         const url = `https://formspree.io/f/${formId}`;
 
         const response = await fetch(url, {
@@ -48,7 +48,7 @@ const ContactForm = () => {
   return (
     <div>
       <form
-        action="https://formspree.io/f/xjvndney"
+        action="https://formspree.io/f/xkndadpl"
         method="POST"
         onSubmit={handleSubmit}
       >
@@ -74,8 +74,8 @@ const ContactForm = () => {
           color="primary"
           type="submit"
         />
-       {status && <p>{status}</p>}
       </form>
+       {status && <p>{status}</p>}
     </div>
   );
 };
