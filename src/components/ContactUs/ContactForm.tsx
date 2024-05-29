@@ -1,8 +1,36 @@
+"use client";
 import React from "react";
+import { useState } from 'react';
 import InputComponent from "./InputComp";
 import Button from "../Button/Button";
+
 const ContactForm = () => {
-  const input = [
+  const [status, setStatus] = useState('');
+
+    const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+        event.preventDefault();
+        const form = event.currentTarget;
+        const formData = new FormData(form);
+        const formId = process.env.NEXT_PUBLIC_FORMSPREE_FORM_ID;
+        const url = `https://formspree.io/f/${formId}`;
+
+        const response = await fetch(url, {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json'
+            },
+            body: formData,
+        });
+
+        if (response.ok) {
+            setStatus('Form submitted successfully!');
+            form.reset();
+        } else {
+            setStatus('Form submission failed.');
+        }
+    };
+
+  const inputs = [
     {
       key: 1,
       placeholder: "First Name",
@@ -16,12 +44,17 @@ const ContactForm = () => {
       placeholder: "Email Address",
     },
   ];
+
   return (
     <div>
-      <form action="/feedback/form" method="POST">
+      <form
+        action="https://formspree.io/f/xjvndney"
+        method="POST"
+        onSubmit={handleSubmit}
+      >
         <h2 className="gp-text-h4 mb-8">CONTACT FORM:</h2>
-        {input.map((input, key) => (
-          <InputComponent key={key} placeholder={input.placeholder} />
+        {inputs.map((input) => (
+          <InputComponent key={input.key} placeholder={input.placeholder} />
         ))}
         <label htmlFor="message">
           <textarea
@@ -33,9 +66,16 @@ const ContactForm = () => {
           >
             Message
           </textarea>
+
         </label>
+        <br />
+        <Button
+          text="SEND MESSAGE"
+          color="primary"
+          type="submit"
+        />
+       {status && <p>{status}</p>}
       </form>
-      <Button text="SEND MESSAGE" color="primary" />
     </div>
   );
 };
