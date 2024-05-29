@@ -3,11 +3,9 @@ import React from "react";
 import { useState } from 'react';
 import InputComponent from "./InputComp";
 import Button from "../Button/Button";
-import ResponseModal from "./ResponseModal";
 
 const ContactForm = () => {
   const [status, setStatus] = useState('');
-  const [showModal, setShowModal] = useState(false);
 
     const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
@@ -77,12 +75,7 @@ const ContactForm = () => {
           type="submit"
         />
       </form>
-      {showModal && (
-        <ResponseModal
-          message={status}
-          onClose={() => setShowModal(false)}
-        />
-      )}
+       {status && <p>{status}</p>}
     </div>
   );
 };
